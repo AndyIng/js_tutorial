@@ -4,9 +4,11 @@
         <title>Learn Enough JavaScript</title>
         <meta charset="utf-8">
         <script>
-           let firstName = "Benjamin";
-           let lastName = "Ingram";
-           console.log(firstName, lastName);
+          const daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday",
+                       "Thursday", "Friday", "Saturday"];
+          let now = new Date();
+          let dayname = daysOfTheWeek[now.getDay()];
+          alert(`Hello, world! Happy ${dayname}.`);
         </script>
         </head>
         <body>
