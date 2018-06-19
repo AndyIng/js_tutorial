@@ -5,3 +5,9 @@ function dayOfTheWeek(date) {
                        
           return daysOfTheWeek[date.getDay()];
         }
+        
+// returns a greeting
+
+function greeting(date) {
+    return `Hello, World! Happy ${dayOfTheWeek(date)}-no from a file!`;
+}
